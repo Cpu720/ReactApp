@@ -38,11 +38,7 @@ Open the URL shown in the terminal.
 - Normal switch: If `switchTo` is available from `useMeeting`, it is used to move to Room B while preserving the underlying connection. If not available, the app falls back to `leave()` then updates `MeetingProvider` to the new `meetingId` and continues.
 - Media Relay: `requestMediaRelay({ destinationMeetingId, kinds: ["audio","video"] })` forwards your audio/video from Room A to Room B without leaving Room A. Use “Stop Relay” to end it.
 
-### Limitations and Notes
+### Challenges 
 
-- `switchTo` availability can vary by plan and SDK version; the sample includes a fallback to leave/join.
-- Media Relay sends media to the other room but does not move your session; you will still be in Room A.
-- Ensure the destination room exists/active before switching or starting relay.
-- Network and device permissions can cause brief hiccups in A/V continuity.
-
-
+- `Challenge` break down all concept in short time and understanding relay
+- `diff bett normal switch & media Relay switch` :- in normal audio & video both switch A to B room with user ,whereas in Relay cam and audio will sift but user not or user sift but audio and cam not.
