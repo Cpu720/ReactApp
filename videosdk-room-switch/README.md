@@ -1,11 +1,6 @@
 
 
-## VideoSDK Room Switch + Media Relay (React)
 
-This sample demonstrates two approaches to move audio/video from one VideoSDK room to another without a full reload:
-
-- Normal room switching using VideoSDK methods
-- Media Relay to forward media from Room A to Room B while staying in Room A
 
 ### Demo Actions
 
@@ -13,14 +8,10 @@ This sample demonstrates two approaches to move audio/video from one VideoSDK ro
 - Switch to Room B (normal switch)
 - Start/Stop Media Relay from Room A to Room B
 
-### Prerequisites
-
-- Node 18+
-- A VideoSDK JWT token with access to create/join rooms
-
-You can obtain a token from your VideoSDK dashboard.
 
 ### Setup
+
+All action perform in "videosdk-room-switch" directory
 
 1. Install dependencies:
 
