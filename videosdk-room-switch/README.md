@@ -1,6 +1,6 @@
 ### Setup
 
-  take to local system by cloning or download the repo to your local system.
+  take to local system by cloning or download the repo to your local system./n
   cd to videosdk-room-switch> 
   then install package (npm install)
   create .env file and declare (VITE_VIDEOSDK_TOKEN='YOUR TOKEN')
