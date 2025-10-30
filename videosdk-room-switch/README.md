@@ -33,7 +33,7 @@ Open the URL shown in the terminal.
 
 ### How it works
 
-- Two rooms (A and B) are created via `POST https://api.videosdk.live/v2/rooms` when you click “Create Room A & B”.
+- in Videosdk when you create room you got room id, so crete Room_id_A & Room_id_B and paste both room id in input field.
 - The app joins Room A using `MeetingProvider` from `@videosdk.live/react-sdk` with mic/webcam enabled.
 - Normal switch: If `switchTo` is available from `useMeeting`, it is used to move to Room B while preserving the underlying connection. If not available, the app falls back to `leave()` then updates `MeetingProvider` to the new `meetingId` and continues.
 - Media Relay: `requestMediaRelay({ destinationMeetingId, kinds: ["audio","video"] })` forwards your audio/video from Room A to Room B without leaving Room A. Use “Stop Relay” to end it.
