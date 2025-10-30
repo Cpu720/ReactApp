@@ -1,5 +1,6 @@
 ### Demo Actions
 
+- get room id a and b (by repo /CreateRoom)
 - Join Room A
 - Switch to Room B (normal switch)
 - Start/Stop Media Relay from Room A to Room B
