@@ -117,10 +117,10 @@ function App() {
           <MeetingShell meetingId={activeMeetingId} token={token} roomBId={roomBId} onSwitched={setActiveMeetingId} />
         </div>
       ) : (
-        <div style={{ marginTop: 16, fontSize: 14, opacity: 0.8 }}>Provide token, create rooms (if permitted) or enter existing Room IDs, then Join.</div>
+        <div style={{ marginTop: 16, fontSize: 14, opacity: 0.8 }}>Lets try</div>
       )}
       <div style={{ marginTop: 24, fontSize: 12, opacity: 0.7 }}>
-        Tip: Use Switch to Room B for normal switch. Use Start Media Relay to relay your A/V from Room A to Room B without switching.
+        Tip: Use Switch to Room B for normal switch.
       </div>
     </div>
   )
