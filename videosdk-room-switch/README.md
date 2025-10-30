@@ -41,4 +41,4 @@ Open the URL shown in the terminal.
 ### Challenges 
 
 - `Challenge` break down all concept in short time and understanding relay
-- `diff bett normal switch & media Relay switch` :- in normal audio & video both switch A to B room with user ,whereas in Relay cam and audio will sift but user not or user sift but audio and cam not.
+- `diff bett normal switch & media Relay switch` :- in normal audio & video both switch A to B room with user ,whereas in Relay help to do send your feed to Room B while staying in Room A.
